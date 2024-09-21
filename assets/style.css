@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 
 @media (prefers-color-scheme: light) {
-  body { color: #000000; background: #f9f9f9; }
+  body { color: #000000 !important; background: #ffffff !important; }
 }
 @media (prefers-color-scheme: dark) {
-  body { color: #f9f9f9; background: #000000; }
+  body { color: #333333 !important; background: #ffffff !important; }
   img[src*=svg] { filter: invert(90%) grayscale(30%); }
 }
 
@@ -18,7 +18,7 @@ body {
 
 #gallery { margin: 8px; }
 
-header { margin: 4em auto 0 auto; text-align: center; font-family: 'Waiting for the Sunrise'; }
+header { margin: 4em auto 0 auto; text-align: center; font-family: 'Open Sans'; }
 header img.avatar { width: 64px; border-radius: 50%; }
 header .title { font-size: 1.6em; font-weight: bold; line-height: 1.6em; }
 header .description { line-height: 1.6em; }
@@ -27,7 +27,7 @@ header nav a { margin: 0 0.6em; }
 
 .section { margin-top: 3em; }
 .section-header-wrapper { max-width: 800px; margin-left: 4em; }
-.section-title { font-family: 'Waiting for the Sunrise'; font-size: 2.5em; font-weight: medium; line-height: 1.6em; }
+.section-title { font-family: 'Open Sans'; font-size: 2.5em; font-weight: medium; line-height: 1.6em; }
 .section-description { line-height: 1.4em; }
 .section-images { margin-top: 2em; }
 
@@ -35,5 +35,5 @@ header nav a { margin: 0 0.6em; }
 .section-image img { width: 100%; }
 
 footer { margin: 4em auto 4em; text-align: center; line-height: 1.6em; }
-footer p { font-size: 0.9em; }
+footer p { font-size: 0.9em; color: #666666; }
 footer .foto_footer { font-size: 0.8em; }
